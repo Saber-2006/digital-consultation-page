@@ -1,0 +1,446 @@
+ul {
+  list-style-type: none;
+}
+.bg-warning,
+.btn-warning {
+  background-color: #d64c0c !important;
+  border: none;
+}
+.text-warning {
+  color: #d64c0c !important;
+}
+.text-warning-secondary {
+  color: #7c2d12 !important;
+}
+i {
+  font-size: larger;
+}
+.nav-link:hover {
+  color: #d64c0c !important;
+  text-decoration: underline !important;
+  text-underline-offset: 6px;
+}
+.active {
+  color: #d64c0c !important;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  background-color: none !important;
+}
+.mega-menu .dropdown-menu {
+  width: 900px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 300px;
+  margin-top: 5px;
+}
+
+.mega-menu .dropdown-menu {
+  border-radius: 12px;
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+}
+
+.Service:hover {
+  background-color: #fdf6f3;
+}
+.Service:hover span {
+  color: #d64c0c;
+}
+.Service p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.ServiceIcon {
+  background-color: #fceee9;
+  height: 40px;
+}
+.ServiceIcon i {
+  color: #d64c0c;
+  margin: auto;
+}
+.Help-box {
+  background-color: #fcefe9;
+}
+.section1 {
+  background-color: #fffdfb;
+}
+.Transforming {
+  background-color: #feebde;
+  width: fit-content;
+}
+.headText {
+  background: linear-gradient(
+    to right,
+    #8b3312 10%,
+    #e5560e 30%,
+    #7c2d12 50%,
+    #f27224 70%,
+    #f98c37 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 75px;
+}
+.sectionHead2 {
+  background: linear-gradient(to right, #8b3312 50%, #e5560e 30%, #f98c37 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-outline-secondary:hover {
+  color: #e5560e !important;
+  border-color: #e5560e !important;
+  background-color: white !important;
+}
+.getStarted:hover {
+  transform: scale(1.05);
+  box-shadow: #e5560e 0px 4px 15px;
+  transition: all 0.3s ease-in-out;
+}
+.backdiv {
+  background-color: #f8d9ce;
+  z-index: 0;
+  width: 505px;
+  height: 505px;
+  transform: rotate(2deg);
+}
+.imgcont {
+  width: 500px;
+}
+.phoneDiv {
+  transform: translate(0%, -5%);
+}
+.phoneDiv i {
+  font-size: 30px;
+}
+.ComprehensiveIcon {
+  background-color: #d44b0b;
+  height: 50px;
+  width: 50px;
+  color: white;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.card {
+  min-height: 350px;
+}
+.card2 {
+  min-height: 250px;
+  margin-bottom: 30px;
+}
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: #f8d9ce 4px 4px 15px;
+  transition: all 0.3s ease-in-out;
+}
+.card:hover .ComprehensiveIcon {
+  transform: scale(1.1);
+}
+.card:hover i {
+  transform: translateX(5px);
+}
+#div1row2 {
+  background-color: #fff3e1 !important;
+}
+.smallDiv2 {
+  background-color: #ffe4b8 !important;
+}
+.smallDiv {
+  background-color: #dceaff;
+}
+.smallDiv3 {
+  background-color: #f3e8ff !important;
+  color: #ad46ff !important;
+}
+#divicon3row2 {
+  background-color: #ad46ff !important;
+}
+#div3row2 {
+  background-color: #f7efff !important;
+}
+@media (max-width: 768px) {
+  .headcont {
+    display: flex !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    overflow: hidden;
+  }
+  .imgcont {
+    width: 400px;
+  }
+  .backdiv {
+    background-color: #f8d9ce;
+    z-index: 0;
+    width: 405px;
+    height: 405px;
+    transform: rotate(2deg);
+  }
+  .getStarted,
+  .btn-outline-secondary {
+    margin-bottom: 10px;
+    width: 100% !important;
+  }
+
+  h6 {
+    text-align: center !important;
+  }
+}
+
+#BCONdiv1row2 {
+  background-color: #4f39f6 !important;
+}
+#divicon2row1 {
+  width: 70px;
+}
+
+
+
+#a,
+#b,
+#d,
+#c,
+#e {
+  display: none;
+}
+
+/* When #a is active (clicked in URL) */
+#a:target {
+  display: block;
+}
+#a:target ~ #b,
+#a:target ~ #c,
+#a:target ~ #d,
+#a:target ~ #e {
+  display: none;
+}
+#e:target {
+  display: block;
+}
+#e:target ~ #b,
+#e:target ~ #c,
+#e:target ~ #d,
+#e:target ~ #a {
+  display: none;
+}
+
+/* When #b is active */
+#b:target {
+  display: block;
+}
+
+#b:target ~ #a,
+#b:target ~ #c,
+#b:target ~ #d,
+#b:target ~ #e {
+  display: none;
+}
+
+#c:target {
+  display: block;
+}
+#c:target ~ #a,
+#c:target ~ #b,
+#c:target ~ #d #c:target ~ #e {
+  display: none;
+}
+#d:target {
+  display: block;
+}
+#d:target ~ #a,
+#d:target ~ #b,
+#d:target ~ #c #d:target ~ #e {
+  display: none;
+}
+.Ratingcot {
+  width: 50px;
+  height: 50px;
+  background-color: #f8d9ce;
+  color: #d44b0b;
+  text-decoration: none !important;
+}
+.carousel p {
+  text-decoration: none;
+}
+.accordion-header::click{
+  background-color: white !important;
+}
+
+@media (max-width: 576px) {
+  .headcont {
+    display: flex !important;
+    flex-direction: column !important;
+    align-content: center !important;
+    overflow: hidden;
+  }
+  .imgcont {
+    width: 300px;
+  }
+
+  .Service {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+.Ileft i {
+  background-color: #fbe9df;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 16px;
+  margin-right: 20px;
+}
+.card {
+  border-radius: 16px;
+  border: #4a556e11 1px solid;
+}
+.card p {
+  color: #4a5565;
+  font-size: 22px;
+}
+.card .bord {
+  padding: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent 15%,
+    #4a556522 20% 80%,
+    transparent 85%
+  );
+}
+
+
+
+.card .t2 {
+  background-color: #fbede6;
+  padding: 5px 10px;
+  border-radius: 22px;
+}
+
+.t2 i {
+  color: white;
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 8px;
+  margin-right: 10px;
+}
+.AhmedI {
+  padding: 0;
+  left: 70%;
+  top: 70%;
+  padding: 5px;
+  width: fit-content;
+  color: white;
+  border: white 2px solid;
+}
+.t1-left img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 15px;
+  padding: 2px;
+  border: 3px #fbddcc solid;
+}
+.card-bb i {
+  color: #ea580c;
+  margin-right: 10px;
+}
+
+.accordion-item:hover{
+  box-shadow: #f8d9ce 4px 4px 15px;
+  transition: all 0.3s ease-in-out;
+  border-color: #f27224;
+  
+}
+
+
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.carousel-indicators [data-bs-target]:focus {
+  background-color: var(--main-color);
+}
+.carousel-indicators [data-bs-target]:hover {
+  border-radius: 16px;
+  margin: 0px 5px;
+  padding: 0px 10px;
+  background-color: var(--main-color);
+}
+
+.testimonials * {
+  text-decoration: none !important; 
+}
+.testimonials .card-bb p,
+.testimonials .card-bb i {
+  text-decoration: none !important; 
+}
+.testimonials *:hover {
+  text-decoration: none !important;
+}
+/* Remove bootstrap background & shadow when open */
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: #d64c0c !important;    /* Keep your text color */
+  border: none !important;
+}
+/* Remove the blue outline on click */
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button {
+  color: #d44b0b !important;
+}
+/* Optional: style your accordion when open */
+.accordion-item.show,
+.accordion-collapse.show {
+  background: transparent !important;
+  border: none !important;
+}
+.formhead{
+  color: #7c2d12 !important;
+}
+.btn-outline-warning{
+  padding: 15px;
+  border-radius: 10px !important ;
+  margin:0px 10px;
+  border-color: #4a5565 !important; 
+  color: black  !important;
+  background-color: transparent !important;
+}
+.btn-outline-warning:hover{
+  background-color: #fbddcc !important;
+}
+.btn-outline-warning:hover .div1{
+  color: #d64c0c !important;
+}
+.radio:checked + .formhead{
+  background-color: #fbddcc !important;
+  color: #d64c0c !important;
+}
+
+.btn-check:checked + .btn {
+  background-color: #fbddcc !important;
+  color: #d64c0c !important; 
+}
+textarea{
+  min-height: 100px;
+  max-height: 100px;
+}
+.sideicon{
+  background-color: #CC6D47;
+  width: 50px; 
+  height: 50px;
+}
